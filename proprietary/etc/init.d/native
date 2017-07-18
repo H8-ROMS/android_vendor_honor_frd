@@ -1,0 +1,12 @@
+#!/system/bin/sh
+#
+
+mount -o remount,rw /system
+mount -o remount,rw /vendor
+
+if [ -f /system/etc/native_packages.xml.zip ]; then
+
+	mv /system/etc/native_packages.xml.zip /system/etc/native_packages.xml
+	chmod 0644 /system/etc/native_packages.xml
+	./system/bin/reboot
+fi

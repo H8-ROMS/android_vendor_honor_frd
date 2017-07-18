@@ -1,0 +1,2 @@
+/vendor/app/Mapcon/Mapcon.apk,priv
+/vendor/app/gnss_supl20service_hisi/gnss_supl20service_hisi.apk,priv

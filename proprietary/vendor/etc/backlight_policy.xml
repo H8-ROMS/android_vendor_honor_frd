@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ * Copyright (C) 2013 Huawei Inc.
+ * Power Genie Config
+ *
+    policy name             value                  default
+    policy_auto(1 in db)    1 (use auto)           0    (no use)
+    policy_ratio(2 in db)   1 ~ 99                 0    (no use)
+    package_name            app package name.      NULL (no use)
+ -->
+
+<backlight_policy version="1">
+
+    <mode id="0">  <!-- common policy for all power mode -->
+    </mode>
+
+    <mode id="1">  <!-- Super Mode policy -->
+        <action name="browser front" id="203">
+            <item name="policy_ratio">56</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <action name="office front" id="225">
+            <item name="policy_ratio">56</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <action name="mms front" id="235">
+            <item name="policy_ratio">68</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <action name="ebook front" id="205">
+            <item name="policy_ratio">56</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <action name="special front" id="-1"> <!-- id is not used. not use the 0 as id -->
+            <item name="policy_auto">1</item>
+            <item name="policy_ratio">76</item>
+            <item name="package_name">com.android.email</item>
+            <item name="package_name">com.google.android.gm</item><!-- gmail -->
+            <item name="package_name">com.huawei.hidisk</item>
+            <item name="package_name">com.qzone</item>
+            <item name="package_name">com.tencent.mm</item>
+            <item name="package_name">com.android.contacts</item><!-- CPS for EMUI3 -->
+            <item name="package_name">com.taobao.taobao</item>
+            <item name="package_name">com.jingdong.app.mall</item>
+        </action>
+
+        <action name="special front" id="-1"> <!-- id is not used. not use the 0 as id -->
+            <item name="policy_auto">1</item>
+            <item name="policy_ratio">56</item>
+            <item name="package_name">com.huawei.android.webcustomize</item>
+        </action>
+
+        <action name="default front" id="208">
+            <item name="policy_ratio">80</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+    </mode>
+
+    <mode id="2">  <!-- Nomal Mode policy -->
+        <action name="browser front" id="203">
+            <item name="policy_ratio">56</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <action name="office front" id="225">
+            <item name="policy_ratio">56</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <action name="mms front" id="235">
+            <item name="policy_ratio">76</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <action name="ebook front" id="205">
+            <item name="policy_ratio">56</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <action name="video front" id="228">
+            <item name="policy_ratio">80</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <action name="video start" id="246">
+            <item name="policy_ratio">80</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <action name="special front" id="-1"> <!-- id is not used. not use the 0 as id -->
+            <item name="policy_auto">1</item>
+            <item name="policy_ratio">76</item>
+            <item name="package_name">com.android.email</item>
+            <item name="package_name">com.google.android.gm</item><!-- gmail -->
+            <item name="package_name">com.huawei.hidisk</item>
+            <item name="package_name">com.qzone</item>
+            <item name="package_name">com.tencent.mm</item>
+            <item name="package_name">com.android.contacts</item><!-- CPS for EMUI3 -->
+            <item name="package_name">com.huawei.yellowpage</item>
+            <item name="package_name">com.taobao.taobao</item>
+            <item name="package_name">com.jingdong.app.mall</item>
+            <item name="package_name">com.ss.android.article.news</item>
+            <item name="package_name">com.tencent.mobileqq</item>
+            <item name="package_name">com.sina.weibo</item>
+            <item name="package_name">com.myzaker.ZAKER_Phone</item>
+            <item name="package_name">com.letv.android.client</item>
+            <item name="package_name">com.youku.phone</item>
+            <item name="package_name">com.supercell.boombeach.HUAWEI</item>
+            <item name="package_name">com.blizzard.wtcg.hearthstone</item>
+            <item name="package_name">com.aboilgame.ftxnbapay.huawei</item>
+            <item name="package_name">sh.lilith.dgame.huawei</item>
+            <item name="package_name">com.supercell.clashofclans.huawei</item>
+            <item name="package_name">com.haowan123.wdsg.huawei</item>
+            <item name="package_name">com.tencent.tmgp.mt2</item>
+            <item name="package_name">com.tencent.WeFire</item>
+            <item name="package_name">com.elextech.alert.HUAWEI</item>
+            <item name="package_name">com.tencent.pocket</item>
+            <item name="package_name">com.bf.sgs.hdexp.huawei</item>
+            <item name="package_name">com.crisisfire.android.huawei</item>
+        </action>
+
+        <action name="special front" id="-1"> <!-- id is not used. not use the 0 as id -->
+            <item name="policy_auto">1</item>
+            <item name="policy_ratio">56</item>
+            <item name="package_name">com.huawei.android.webcustomize</item>
+        </action>
+
+        <action name="special front" id="-1"> <!-- id is not used. not use the 0 as id -->
+            <item name="policy_auto">0</item>
+            <item name="policy_ratio">100</item>
+            <item name="package_name">com.huawei.hwireader</item>
+            <item name="package_name">com.huawei.hnreader</item>
+        </action>
+    </mode>
+
+    <mode id="3">  <!-- Off Mode policy -->
+    </mode>
+
+    <mode id="4">  <!-- Extreme Mode policy-->
+        <!-- action name="browser front" id="203">
+            <item name="policy_auto">1</item>
+            <item name="policy_ratio">60</item>
+        </action -->
+
+        <!-- action name="office front" id="225">
+            <item name="policy_auto">1</item>
+            <item name="policy_ratio">50</item>
+        </action -->
+
+        <!-- action name="video front" id="228">
+            <item name="policy_auto">1</item>
+            <item name="policy_ratio">85</item>
+        </action -->
+
+        <!--the ratio is same as video front-->
+        <!-- action name="video start" id="246">
+            <item name="policy_auto">1</item>
+            <item name="policy_ratio">85</item>
+        </action -->
+
+        <!--no need to excute policy,just restore-->
+        <!-- action name="video end" id="247">
+        </action -->
+
+        <!-- action name="mms front" id="235">
+            <item name="policy_auto">1</item>
+            <item name="policy_ratio">65</item>
+        </action -->
+
+        <action name="default front" id="208">
+            <item name="policy_ratio">60</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <!-- action name="ebook front" id="205">
+            <item name="policy_auto">1</item>
+            <item name="policy_ratio">50</item>
+        </action -->
+
+    </mode>
+
+</backlight_policy>

@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Config>
+    <Global>
+        <NoiseReductionFlag>1</NoiseReductionFlag>
+        <LumaEnhancementFlag>0</LumaEnhancementFlag>
+        <ExposureFusionFlag colorcount="4" graycount="4" minfps0="62500" minfps1="62500" maxiso0="3600" maxiso1="3600" sync="0">1</ExposureFusionFlag>
+    </Global>
+
+    <NoiseReduction>
+        <ISO1>
+            <isovalue>2048</isovalue>
+            <NoiseReductionFlag>1</NoiseReductionFlag>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-100</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <detail>-128</detail>
+            <lumaMed_M>0</lumaMed_M>
+            <lumaLF_M>-100</lumaLF_M>
+            <lumaHF1_M>0</lumaHF1_M>
+            <lumaHF2_M>0</lumaHF2_M>
+            <lumaHF3_M>0</lumaHF3_M>
+            <detail_M>-128</detail_M>
+            <chromaS>-97</chromaS>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+        </ISO1>
+        <ISO2>
+            <isovalue>3838</isovalue>
+            <NoiseReductionFlag>1</NoiseReductionFlag>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-99</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <detail>-128</detail>
+            <lumaMed_M>0</lumaMed_M>
+            <lumaLF_M>-100</lumaLF_M>
+            <lumaHF1_M>0</lumaHF1_M>
+            <lumaHF2_M>0</lumaHF2_M>
+            <lumaHF3_M>0</lumaHF3_M>
+            <detail_M>-128</detail_M>
+            <chromaS>-97</chromaS>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+        </ISO2>
+        <ISO3>
+            <isovalue>4736</isovalue>
+            <NoiseReductionFlag>1</NoiseReductionFlag>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-99</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <detail>-128</detail>
+            <lumaMed_M>0</lumaMed_M>
+            <lumaLF_M>-90</lumaLF_M>
+            <lumaHF1_M>0</lumaHF1_M>
+            <lumaHF2_M>0</lumaHF2_M>
+            <lumaHF3_M>0</lumaHF3_M>
+            <detail_M>-128</detail_M>
+            <chromaS>-97</chromaS>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+        </ISO3>
+        <ISO4>
+            <isovalue>6784</isovalue>
+            <NoiseReductionFlag>1</NoiseReductionFlag>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-98</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <detail>-128</detail>
+            <lumaMed_M>0</lumaMed_M>
+            <lumaLF_M>-90</lumaLF_M>
+            <lumaHF1_M>0</lumaHF1_M>
+            <lumaHF2_M>0</lumaHF2_M>
+            <lumaHF3_M>0</lumaHF3_M>
+            <detail_M>-128</detail_M>
+            <chromaS>-97</chromaS>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+        </ISO4>
+        <ISO5>
+            <isovalue>9728</isovalue>
+            <NoiseReductionFlag>1</NoiseReductionFlag>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-97</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <detail>-128</detail>
+            <lumaMed_M>0</lumaMed_M>
+            <lumaLF_M>-85</lumaLF_M>
+            <lumaHF1_M>0</lumaHF1_M>
+            <lumaHF2_M>0</lumaHF2_M>
+            <lumaHF3_M>0</lumaHF3_M>
+            <detail_M>-128</detail_M>
+            <chromaS>-96</chromaS>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+        </ISO5>
+        <ISO6>
+            <isovalue>12800</isovalue>
+            <NoiseReductionFlag>1</NoiseReductionFlag>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-97</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <detail>-128</detail>
+            <lumaMed_M>0</lumaMed_M>
+            <lumaLF_M>-80</lumaLF_M>
+            <lumaHF1_M>0</lumaHF1_M>
+            <lumaHF2_M>0</lumaHF2_M>
+            <lumaHF3_M>0</lumaHF3_M>
+            <detail_M>-128</detail_M>
+            <chromaS>-96</chromaS>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+        </ISO6>
+        <ISO7>
+            <isovalue>16384</isovalue>
+            <NoiseReductionFlag>1</NoiseReductionFlag>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-96</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <detail>-128</detail>
+            <lumaMed_M>0</lumaMed_M>
+            <lumaLF_M>-75</lumaLF_M>
+            <lumaHF1_M>0</lumaHF1_M>
+            <lumaHF2_M>0</lumaHF2_M>
+            <lumaHF3_M>0</lumaHF3_M>
+            <detail_M>-128</detail_M>
+            <chromaS>-95</chromaS>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+        </ISO7>
+        <ISO8>
+            <isovalue>20480</isovalue>
+            <NoiseReductionFlag>1</NoiseReductionFlag>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-95</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <detail>-128</detail>
+            <lumaMed_M>0</lumaMed_M>
+            <lumaLF_M>-70</lumaLF_M>
+            <lumaHF1_M>0</lumaHF1_M>
+            <lumaHF2_M>0</lumaHF2_M>
+            <lumaHF3_M>0</lumaHF3_M>
+            <detail_M>-128</detail_M>
+            <chromaS>-95</chromaS>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+        </ISO8>
+    </NoiseReduction>
+
+    <ChromaEnhancement>
+        <enhancementLevel>0</enhancementLevel>
+        <chromaDetail>154</chromaDetail>
+    </ChromaEnhancement>
+
+    <LumaEnhancement>
+        <maxGain>32</maxGain>
+        <chromaGain>11</chromaGain>
+        <lumaTH>1500</lumaTH>
+        <peakTH>800</peakTH>
+    </LumaEnhancement>
+
+    <GhostDetection>
+        <ISO1>
+            <lumaTH_Low>48</lumaTH_Low>
+            <lumaTH_High>160</lumaTH_High>
+            <lumaNoiseTH>160</lumaNoiseTH>
+            <chromaTH_Low>160</chromaTH_Low>
+            <chromaTH_High>160</chromaTH_High>
+            <chromaNoiseTH>4080</chromaNoiseTH>
+        </ISO1>
+        <ISO2>
+            <lumaTH_Low>48</lumaTH_Low>
+            <lumaTH_High>160</lumaTH_High>
+            <lumaNoiseTH>160</lumaNoiseTH>
+            <chromaTH_Low>160</chromaTH_Low>
+            <chromaTH_High>160</chromaTH_High>
+            <chromaNoiseTH>4080</chromaNoiseTH>
+        </ISO2>
+        <ISO3>
+            <lumaTH_Low>64</lumaTH_Low>
+            <lumaTH_High>160</lumaTH_High>
+            <lumaNoiseTH>160</lumaNoiseTH>
+            <chromaTH_Low>240</chromaTH_Low>
+            <chromaTH_High>240</chromaTH_High>
+            <chromaNoiseTH>4080</chromaNoiseTH>
+        </ISO3>
+        <ISO4>
+            <lumaTH_Low>80</lumaTH_Low>
+            <lumaTH_High>160</lumaTH_High>
+            <lumaNoiseTH>160</lumaNoiseTH>
+            <chromaTH_Low>240</chromaTH_Low>
+            <chromaTH_High>240</chromaTH_High>
+            <chromaNoiseTH>4080</chromaNoiseTH>
+        </ISO4>
+        <ISO5>
+            <lumaTH_Low>96</lumaTH_Low>
+            <lumaTH_High>192</lumaTH_High>
+            <lumaNoiseTH>160</lumaNoiseTH>
+            <chromaTH_Low>320</chromaTH_Low>
+            <chromaTH_High>320</chromaTH_High>
+            <chromaNoiseTH>4080</chromaNoiseTH>
+        </ISO5>
+        <ISO6>
+            <lumaTH_Low>128</lumaTH_Low>
+            <lumaTH_High>256</lumaTH_High>
+            <lumaNoiseTH>160</lumaNoiseTH>
+            <chromaTH_Low>320</chromaTH_Low>
+            <chromaTH_High>320</chromaTH_High>
+            <chromaNoiseTH>4080</chromaNoiseTH>
+        </ISO6>
+        <ISO7>
+            <lumaTH_Low>128</lumaTH_Low>
+            <lumaTH_High>256</lumaTH_High>
+            <lumaNoiseTH>160</lumaNoiseTH>
+            <chromaTH_Low>320</chromaTH_Low>
+            <chromaTH_High>320</chromaTH_High>
+            <chromaNoiseTH>4080</chromaNoiseTH>
+        </ISO7>
+        <ISO8>
+            <lumaTH_Low>128</lumaTH_Low>
+            <lumaTH_High>256</lumaTH_High>
+            <lumaNoiseTH>160</lumaNoiseTH>
+            <chromaTH_Low>320</chromaTH_Low>
+            <chromaTH_High>320</chromaTH_High>
+            <chromaNoiseTH>4080</chromaNoiseTH>
+        </ISO8>
+    </GhostDetection>
+
+    <ExposureFusion>
+        <ChromaFusionFlag>1</ChromaFusionFlag>
+        <HDRFusionFlag>0</HDRFusionFlag>
+        <detailMin>2</detailMin>
+        <Stable>
+            <isoTH>3400</isoTH>
+            <maxShift>36</maxShift>
+            <ghostTH>0.02</ghostTH>
+            <lumaTH>48</lumaTH>
+        </Stable>
+        <ISO1>
+            <fusion_low>0</fusion_low>
+            <fusion_high>0</fusion_high>
+            <detailRestore>128</detailRestore>
+            <SaturationGain>18</SaturationGain>
+            <boostDetail>1</boostDetail>
+        </ISO1>
+        <ISO2>
+            <fusion_low>0</fusion_low>
+            <fusion_high>0</fusion_high>
+            <detailRestore>128</detailRestore>
+            <SaturationGain>18</SaturationGain>
+            <boostDetail>1</boostDetail>
+        </ISO2>
+        <ISO3>
+            <fusion_low>0</fusion_low>
+            <fusion_high>0</fusion_high>
+            <detailRestore>128</detailRestore>
+            <SaturationGain>18</SaturationGain>
+            <boostDetail>1</boostDetail>
+        </ISO3>
+        <ISO4>
+            <fusion_low>0</fusion_low>
+            <fusion_high>0</fusion_high>
+            <detailRestore>32</detailRestore>
+            <SaturationGain>18</SaturationGain>
+            <boostDetail>1</boostDetail>
+        </ISO4>
+        <ISO5>
+            <fusion_low>64</fusion_low>
+            <fusion_high>20</fusion_high>
+            <detailRestore>16</detailRestore>
+            <SaturationGain>20</SaturationGain>
+            <boostDetail>1</boostDetail>
+        </ISO5>
+        <ISO6>
+            <fusion_low>64</fusion_low>
+            <fusion_high>20</fusion_high>
+            <detailRestore>16</detailRestore>
+            <SaturationGain>20</SaturationGain>
+            <boostDetail>0</boostDetail>
+        </ISO6>
+        <ISO7>
+            <fusion_low>168</fusion_low>
+            <fusion_high>64</fusion_high>
+            <detailRestore>16</detailRestore>
+            <SaturationGain>20</SaturationGain>
+            <boostDetail>0</boostDetail>
+        </ISO7>
+        <ISO8>
+            <fusion_low>0</fusion_low>
+            <fusion_high>0</fusion_high>
+            <detailRestore>16</detailRestore>
+            <SaturationGain>20</SaturationGain>
+            <boostDetail>0</boostDetail>
+        </ISO8>
+    </ExposureFusion>
+
+    <PreProcess>
+    </PreProcess>
+    <RouteSwitch>
+        <DepthType>0</DepthType>
+        <ColorOnlyDisparity>15</ColorOnlyDisparity>
+        <ColorOnlyPixelPercent>30</ColorOnlyPixelPercent>
+        <MonoBasedChroma>10</MonoBasedChroma>
+        <MonoBasedPixelPercent>95</MonoBasedPixelPercent>
+        <MonoBasedDiffUMax>12</MonoBasedDiffUMax>
+        <MonoBasedDiffVMax>12</MonoBasedDiffVMax>
+        <ExtraMonoBaseISO>6144</ExtraMonoBaseISO>
+        <ExtraMonoBaseMean>1.7</ExtraMonoBaseMean>
+        <ExtraMonoBaseStd>1.7</ExtraMonoBaseStd>
+        <ExtraMonoBasePercent>0.9</ExtraMonoBasePercent>
+        <!-- values of ISOs are *ISO value* of NoiseReduction -->
+        <ExtraMonoBaseISOs>2048 3840 4378 6784 9728 12800 16384 20480</ExtraMonoBaseISOs>
+        <ExtraMonoBaseLumaPercents>10 15 20 50 55 60 70 70</ExtraMonoBaseLumaPercents>
+        <MonoBasedTHVar1>1.5</MonoBasedTHVar1>
+        <MonoBasedTHVar2>0.99</MonoBasedTHVar2>
+    </RouteSwitch>
+    <Fusion>
+        <IsoLumaFusion>184320</IsoLumaFusion>
+        <WeightDiff>1</WeightDiff>
+    </Fusion>
+    <!--params for different iso-->
+    <!--mono_eps at [0.032, 0.16]-->
+    <!--color_eps at [0.04, 0.16]-->
+    <isoCount>10</isoCount>
+    <iso1>
+        <iso>2048</iso>
+        <color_eps>0.04</color_eps>
+        <color_eps_scale>14</color_eps_scale>
+        <color_r>4</color_r>
+        <mono_eps>0.16</mono_eps>
+        <mono_eps_scale>10</mono_eps_scale>
+        <mono_r>4</mono_r>
+
+        <mono_detail_eps>0.02</mono_detail_eps>
+        <mono_detail_eps_scale>14</mono_detail_eps_scale>
+        <mono_detail_r>1</mono_detail_r>
+
+        <mono_detailbase_eps>0.04</mono_detailbase_eps>
+        <mono_detailbase_eps_scale>21</mono_detailbase_eps_scale>
+        <mono_detailbase_r>4</mono_detailbase_r>
+
+        <detailbase_ratio_min>128</detailbase_ratio_min>
+        <detailbase_ratio_max>256</detailbase_ratio_max>
+        <detailbase_th_min>10</detailbase_th_min>
+        <detailbase_th_bit_to_max>3</detailbase_th_bit_to_max>
+
+        <detail_ratio_min>128</detail_ratio_min>
+        <detail_ratio_max>256</detail_ratio_max>
+        <detail_th_min>1</detail_th_min>
+        <detail_th_bit_to_max>2</detail_th_bit_to_max>
+
+        <smooth_eps>0.04</smooth_eps>
+        <smooth_eps_scale>15</smooth_eps_scale>
+        <smooth_r>0</smooth_r>
+
+        <enhance_flag>1</enhance_flag>
+        <enhance_th_bit>2</enhance_th_bit>
+        <enhance_scale>128</enhance_scale>
+
+        <color_weight_shiftbit>3</color_weight_shiftbit>
+        <color_detail_shiftbit>0</color_detail_shiftbit>
+
+        <detail_diff_th>50</detail_diff_th>
+        <detail_diff_cnt_th>500</detail_diff_cnt_th>
+    </iso1>
+    <iso2>
+        <iso>3838</iso>
+        <color_eps>0.06</color_eps>
+        <color_eps_scale>14</color_eps_scale>
+        <color_r>4</color_r>
+        <mono_eps>0.16</mono_eps>
+        <mono_eps_scale>10</mono_eps_scale>
+        <mono_r>4</mono_r>
+
+        <mono_detail_eps>0.03</mono_detail_eps>
+        <mono_detail_eps_scale>14</mono_detail_eps_scale>
+        <mono_detail_r>1</mono_detail_r>
+
+        <mono_detailbase_eps>0.06</mono_detailbase_eps>
+        <mono_detailbase_eps_scale>21</mono_detailbase_eps_scale>
+        <mono_detailbase_r>4</mono_detailbase_r>
+
+        <detailbase_ratio_min>128</detailbase_ratio_min>
+        <detailbase_ratio_max>256</detailbase_ratio_max>
+        <detailbase_th_min>10</detailbase_th_min>
+        <detailbase_th_bit_to_max>3</detailbase_th_bit_to_max>
+
+        <detail_ratio_min>128</detail_ratio_min>
+        <detail_ratio_max>300</detail_ratio_max>
+        <detail_th_min>1</detail_th_min>
+        <detail_th_bit_to_max>2</detail_th_bit_to_max>
+
+        <smooth_eps>0.06</smooth_eps>
+        <smooth_eps_scale>16</smooth_eps_scale>
+        <smooth_r>0</smooth_r>
+
+        <enhance_flag>1</enhance_flag>
+        <enhance_th_bit>2</enhance_th_bit>
+        <enhance_scale>128</enhance_scale>
+
+        <color_weight_shiftbit>3</color_weight_shiftbit>
+        <color_detail_shiftbit>0</color_detail_shiftbit>
+
+        <detail_diff_th>50</detail_diff_th>
+        <detail_diff_cnt_th>500</detail_diff_cnt_th>
+    </iso2>
+    <iso3>
+        <iso>4736</iso>
+        <color_eps>0.08</color_eps>
+        <color_eps_scale>14</color_eps_scale>
+        <color_r>4</color_r>
+        <mono_eps>0.16</mono_eps>
+        <mono_eps_scale>10</mono_eps_scale>
+        <mono_r>4</mono_r>
+
+        <mono_detail_eps>0.04</mono_detail_eps>
+        <mono_detail_eps_scale>14</mono_detail_eps_scale>
+        <mono_detail_r>1</mono_detail_r>
+
+        <mono_detailbase_eps>0.08</mono_detailbase_eps>
+        <mono_detailbase_eps_scale>21</mono_detailbase_eps_scale>
+        <mono_detailbase_r>4</mono_detailbase_r>
+
+        <detailbase_ratio_min>128</detailbase_ratio_min>
+        <detailbase_ratio_max>256</detailbase_ratio_max>
+        <detailbase_th_min>10</detailbase_th_min>
+        <detailbase_th_bit_to_max>3</detailbase_th_bit_to_max>
+
+        <detail_ratio_min>128</detail_ratio_min>
+        <detail_ratio_max>384</detail_ratio_max>
+        <detail_th_min>1</detail_th_min>
+        <detail_th_bit_to_max>2</detail_th_bit_to_max>
+
+        <smooth_eps>0.06</smooth_eps>
+        <smooth_eps_scale>16</smooth_eps_scale>
+        <smooth_r>0</smooth_r>
+
+        <enhance_flag>1</enhance_flag>
+        <enhance_th_bit>3</enhance_th_bit>
+        <enhance_scale>128</enhance_scale>
+
+        <color_weight_shiftbit>3</color_weight_shiftbit>
+        <color_detail_shiftbit>0</color_detail_shiftbit>
+
+        <detail_diff_th>50</detail_diff_th>
+        <detail_diff_cnt_th>500</detail_diff_cnt_th>
+    </iso3>
+    <iso4>
+        <iso>6784</iso>
+        <color_eps>0.1</color_eps>
+        <color_eps_scale>14</color_eps_scale>
+        <color_r>4</color_r>
+        <mono_eps>0.16</mono_eps>
+        <mono_eps_scale>10</mono_eps_scale>
+        <mono_r>4</mono_r>
+
+        <mono_detail_eps>0.05</mono_detail_eps>
+        <mono_detail_eps_scale>14</mono_detail_eps_scale>
+        <mono_detail_r>1</mono_detail_r>
+
+        <mono_detailbase_eps>0.1</mono_detailbase_eps>
+        <mono_detailbase_eps_scale>21</mono_detailbase_eps_scale>
+        <mono_detailbase_r>4</mono_detailbase_r>
+
+        <detailbase_ratio_min>128</detailbase_ratio_min>
+        <detailbase_ratio_max>256</detailbase_ratio_max>
+        <detailbase_th_min>10</detailbase_th_min>
+        <detailbase_th_bit_to_max>3</detailbase_th_bit_to_max>
+
+        <detail_ratio_min>128</detail_ratio_min>
+        <detail_ratio_max>430</detail_ratio_max>
+        <detail_th_min>1</detail_th_min>
+        <detail_th_bit_to_max>2</detail_th_bit_to_max>
+
+        <smooth_eps>0.1</smooth_eps>
+        <smooth_eps_scale>18</smooth_eps_scale>
+        <smooth_r>0</smooth_r>
+
+        <enhance_flag>1</enhance_flag>
+        <enhance_th_bit>3</enhance_th_bit>
+        <enhance_scale>64</enhance_scale>
+
+        <color_weight_shiftbit>2</color_weight_shiftbit>
+        <color_detail_shiftbit>0</color_detail_shiftbit>
+
+        <detail_diff_th>50</detail_diff_th>
+        <detail_diff_cnt_th>500</detail_diff_cnt_th>
+    </iso4>
+    <iso5>
+        <iso>9728</iso>
+        <color_eps>0.12</color_eps>
+        <color_eps_scale>14</color_eps_scale>
+        <color_r>4</color_r>
+        <mono_eps>0.16</mono_eps>
+        <mono_eps_scale>10</mono_eps_scale>
+        <mono_r>4</mono_r>
+
+        <mono_detail_eps>0.06</mono_detail_eps>
+        <mono_detail_eps_scale>14</mono_detail_eps_scale>
+        <mono_detail_r>1</mono_detail_r>
+
+        <mono_detailbase_eps>0.12</mono_detailbase_eps>
+        <mono_detailbase_eps_scale>21</mono_detailbase_eps_scale>
+        <mono_detailbase_r>4</mono_detailbase_r>
+
+        <detailbase_ratio_min>128</detailbase_ratio_min>
+        <detailbase_ratio_max>256</detailbase_ratio_max>
+        <detailbase_th_min>10</detailbase_th_min>
+        <detailbase_th_bit_to_max>3</detailbase_th_bit_to_max>
+
+        <detail_ratio_min>128</detail_ratio_min>
+        <detail_ratio_max>480</detail_ratio_max>
+        <detail_th_min>1</detail_th_min>
+        <detail_th_bit_to_max>2</detail_th_bit_to_max>
+
+        <smooth_eps>0.1</smooth_eps>
+        <smooth_eps_scale>19</smooth_eps_scale>
+        <smooth_r>0</smooth_r>
+
+        <enhance_flag>1</enhance_flag>
+        <enhance_th_bit>4</enhance_th_bit>
+        <enhance_scale>64</enhance_scale>
+
+        <color_weight_shiftbit>2</color_weight_shiftbit>
+        <color_detail_shiftbit>0</color_detail_shiftbit>
+
+        <detail_diff_th>50</detail_diff_th>
+        <detail_diff_cnt_th>500</detail_diff_cnt_th>
+    </iso5>
+    <iso6>
+        <iso>12800</iso>
+        <color_eps>0.12</color_eps>
+        <color_eps_scale>14</color_eps_scale>
+        <color_r>4</color_r>
+        <mono_eps>0.16</mono_eps>
+        <mono_eps_scale>10</mono_eps_scale>
+        <mono_r>4</mono_r>
+
+        <mono_detail_eps>0.06</mono_detail_eps>
+        <mono_detail_eps_scale>14</mono_detail_eps_scale>
+        <mono_detail_r>1</mono_detail_r>
+
+        <mono_detailbase_eps>0.12</mono_detailbase_eps>
+        <mono_detailbase_eps_scale>21</mono_detailbase_eps_scale>
+        <mono_detailbase_r>4</mono_detailbase_r>
+
+        <detailbase_ratio_min>128</detailbase_ratio_min>
+        <detailbase_ratio_max>256</detailbase_ratio_max>
+        <detailbase_th_min>10</detailbase_th_min>
+        <detailbase_th_bit_to_max>3</detailbase_th_bit_to_max>
+
+        <detail_ratio_min>128</detail_ratio_min>
+        <detail_ratio_max>512</detail_ratio_max>
+        <detail_th_min>1</detail_th_min>
+        <detail_th_bit_to_max>2</detail_th_bit_to_max>
+
+        <smooth_eps>0.1</smooth_eps>
+        <smooth_eps_scale>20</smooth_eps_scale>
+        <smooth_r>0</smooth_r>
+
+        <enhance_flag>1</enhance_flag>
+        <enhance_th_bit>0</enhance_th_bit>
+        <enhance_scale>128</enhance_scale>
+
+        <color_weight_shiftbit>2</color_weight_shiftbit>
+        <color_detail_shiftbit>0</color_detail_shiftbit>
+
+        <detail_diff_th>50</detail_diff_th>
+        <detail_diff_cnt_th>500</detail_diff_cnt_th>
+    </iso6>
+    <iso7>
+        <iso>16384</iso>
+        <color_eps>0.06</color_eps>
+        <color_eps_scale>14</color_eps_scale>
+        <color_r>4</color_r>
+        <mono_eps>0.16</mono_eps>
+        <mono_eps_scale>10</mono_eps_scale>
+        <mono_r>4</mono_r>
+
+        <mono_detail_eps>0.03</mono_detail_eps>
+        <mono_detail_eps_scale>14</mono_detail_eps_scale>
+        <mono_detail_r>1</mono_detail_r>
+
+        <mono_detailbase_eps>0.06</mono_detailbase_eps>
+        <mono_detailbase_eps_scale>21</mono_detailbase_eps_scale>
+        <mono_detailbase_r>4</mono_detailbase_r>
+
+        <detailbase_ratio_min>128</detailbase_ratio_min>
+        <detailbase_ratio_max>256</detailbase_ratio_max>
+        <detailbase_th_min>10</detailbase_th_min>
+        <detailbase_th_bit_to_max>3</detailbase_th_bit_to_max>
+
+        <detail_ratio_min>128</detail_ratio_min>
+        <detail_ratio_max>400</detail_ratio_max>
+        <detail_th_min>2</detail_th_min>
+        <detail_th_bit_to_max>2</detail_th_bit_to_max>
+
+        <smooth_eps>0.06</smooth_eps>
+        <smooth_eps_scale>21</smooth_eps_scale>
+        <smooth_r>0</smooth_r>
+
+        <enhance_flag>1</enhance_flag>
+        <enhance_th_bit>0</enhance_th_bit>
+        <enhance_scale>128</enhance_scale>
+
+        <color_weight_shiftbit>3</color_weight_shiftbit>
+        <color_detail_shiftbit>0</color_detail_shiftbit>
+
+        <detail_diff_th>50</detail_diff_th>
+        <detail_diff_cnt_th>500</detail_diff_cnt_th>
+    </iso7>
+    <iso8>
+        <iso>20480</iso>
+        <color_eps>0.06</color_eps>
+        <color_eps_scale>14</color_eps_scale>
+        <color_r>4</color_r>
+        <mono_eps>0.16</mono_eps>
+        <mono_eps_scale>10</mono_eps_scale>
+        <mono_r>4</mono_r>
+
+        <mono_detail_eps>0.03</mono_detail_eps>
+        <mono_detail_eps_scale>14</mono_detail_eps_scale>
+        <mono_detail_r>1</mono_detail_r>
+
+        <mono_detailbase_eps>0.06</mono_detailbase_eps>
+        <mono_detailbase_eps_scale>21</mono_detailbase_eps_scale>
+        <mono_detailbase_r>4</mono_detailbase_r>
+
+        <detailbase_ratio_min>128</detailbase_ratio_min>
+        <detailbase_ratio_max>256</detailbase_ratio_max>
+        <detailbase_th_min>10</detailbase_th_min>
+        <detailbase_th_bit_to_max>3</detailbase_th_bit_to_max>
+
+        <detail_ratio_min>128</detail_ratio_min>
+        <detail_ratio_max>400</detail_ratio_max>
+        <detail_th_min>2</detail_th_min>
+        <detail_th_bit_to_max>2</detail_th_bit_to_max>
+
+        <smooth_eps>0.06</smooth_eps>
+        <smooth_eps_scale>21</smooth_eps_scale>
+        <smooth_r>0</smooth_r>
+
+        <enhance_flag>1</enhance_flag>
+        <enhance_th_bit>0</enhance_th_bit>
+        <enhance_scale>128</enhance_scale>
+
+        <color_weight_shiftbit>3</color_weight_shiftbit>
+        <color_detail_shiftbit>0</color_detail_shiftbit>
+
+        <detail_diff_th>50</detail_diff_th>
+        <detail_diff_cnt_th>500</detail_diff_cnt_th>
+    </iso8>
+    <iso9>
+        <iso>20490</iso>
+        <color_eps>0.08</color_eps>
+        <color_eps_scale>14</color_eps_scale>
+        <color_r>4</color_r>
+        <mono_eps>0.16</mono_eps>
+        <mono_eps_scale>10</mono_eps_scale>
+        <mono_r>4</mono_r>
+
+        <mono_detail_eps>0.04</mono_detail_eps>
+        <mono_detail_eps_scale>14</mono_detail_eps_scale>
+        <mono_detail_r>1</mono_detail_r>
+
+        <mono_detailbase_eps>0.08</mono_detailbase_eps>
+        <mono_detailbase_eps_scale>21</mono_detailbase_eps_scale>
+        <mono_detailbase_r>4</mono_detailbase_r>
+
+        <detailbase_ratio_min>128</detailbase_ratio_min>
+        <detailbase_ratio_max>256</detailbase_ratio_max>
+        <detailbase_th_min>10</detailbase_th_min>
+        <detailbase_th_bit_to_max>3</detailbase_th_bit_to_max>
+
+        <detail_ratio_min>128</detail_ratio_min>
+        <detail_ratio_max>400</detail_ratio_max>
+        <detail_th_min>2</detail_th_min>
+        <detail_th_bit_to_max>2</detail_th_bit_to_max>
+
+        <smooth_eps>0.08</smooth_eps>
+        <smooth_eps_scale>21</smooth_eps_scale>
+        <smooth_r>0</smooth_r>
+
+        <enhance_flag>1</enhance_flag>
+        <enhance_th_bit>4</enhance_th_bit>
+        <enhance_scale>64</enhance_scale>
+
+        <color_weight_shiftbit>3</color_weight_shiftbit>
+        <color_detail_shiftbit>1</color_detail_shiftbit>
+
+        <detail_diff_th>50</detail_diff_th>
+        <detail_diff_cnt_th>500</detail_diff_cnt_th>
+    </iso9>
+    <iso10>
+        <iso>20500</iso>
+        <color_eps>0.08</color_eps>
+        <color_eps_scale>14</color_eps_scale>
+        <color_r>4</color_r>
+        <mono_eps>0.16</mono_eps>
+        <mono_eps_scale>10</mono_eps_scale>
+        <mono_r>4</mono_r>
+
+        <mono_detail_eps>0.04</mono_detail_eps>
+        <mono_detail_eps_scale>14</mono_detail_eps_scale>
+        <mono_detail_r>1</mono_detail_r>
+
+        <mono_detailbase_eps>0.08</mono_detailbase_eps>
+        <mono_detailbase_eps_scale>21</mono_detailbase_eps_scale>
+        <mono_detailbase_r>4</mono_detailbase_r>
+
+        <detailbase_ratio_min>128</detailbase_ratio_min>
+        <detailbase_ratio_max>256</detailbase_ratio_max>
+        <detailbase_th_min>10</detailbase_th_min>
+        <detailbase_th_bit_to_max>3</detailbase_th_bit_to_max>
+
+        <detail_ratio_min>128</detail_ratio_min>
+        <detail_ratio_max>400</detail_ratio_max>
+        <detail_th_min>3</detail_th_min>
+        <detail_th_bit_to_max>2</detail_th_bit_to_max>
+
+        <smooth_eps>0.08</smooth_eps>
+        <smooth_eps_scale>21</smooth_eps_scale>
+        <smooth_r>0</smooth_r>
+
+        <enhance_flag>1</enhance_flag>
+        <enhance_th_bit>5</enhance_th_bit>
+        <enhance_scale>64</enhance_scale>
+
+        <color_weight_shiftbit>3</color_weight_shiftbit>
+        <color_detail_shiftbit>1</color_detail_shiftbit>
+
+        <detail_diff_th>50</detail_diff_th>
+        <detail_diff_cnt_th>500</detail_diff_cnt_th>
+    </iso10>
+
+    <GhostCorrection>
+    <LowThr>1</LowThr>
+    <HighThr>5</HighThr>
+    </GhostCorrection>
+</Config>

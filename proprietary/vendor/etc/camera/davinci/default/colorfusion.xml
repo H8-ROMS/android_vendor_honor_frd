@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Config>
+    <PreProcess>
+    </PreProcess>
+    <RouteSwitch>
+        <DepthType>0</DepthType>
+        <ColorOnlyDisparity>10</ColorOnlyDisparity>
+        <ColorOnlyPixelPercent>30</ColorOnlyPixelPercent>
+        <MonoBasedChroma>10</MonoBasedChroma>
+        <MonoBasedPixelPercent>95</MonoBasedPixelPercent>
+		<MonoBasedTHVar1>1.5</MonoBasedTHVar1>
+		<MonoBasedTHVar2>0.99</MonoBasedTHVar2>
+		<MonoBasedDiffUMax>12</MonoBasedDiffUMax>
+		<MonoBasedDiffVMax>12</MonoBasedDiffVMax>
+    </RouteSwitch>
+    <Fusion>
+        <IsoLumaFusion>6400</IsoLumaFusion>
+        <WeightDiff>1</WeightDiff>
+    </Fusion>
+	<!--params for different iso-->
+	<!--mono_eps at [0.032, 0.16]-->
+	<!--color_eps at [0.04, 0.16]-->
+	<isoCount>10</isoCount>
+	<iso1>
+		<iso>100</iso>
+		<color_eps>0.04</color_eps>
+		<color_eps_scale>14</color_eps_scale>
+		<color_r>4</color_r>
+		<mono_eps>0.16</mono_eps>
+		<mono_eps_scale>10</mono_eps_scale>
+		<mono_r>4</mono_r>
+		
+		<mono_detail_eps>0.02</mono_detail_eps>
+		<mono_detail_eps_scale>14</mono_detail_eps_scale>
+		<mono_detail_r>1</mono_detail_r>
+		
+		<mono_detailbase_eps>0.04</mono_detailbase_eps>
+		<mono_detailbase_eps_scale>21</mono_detailbase_eps_scale>
+		<mono_detailbase_r>4</mono_detailbase_r>
+		
+		<detail_ratio_min>128</detail_ratio_min>
+		<detail_ratio_max>256</detail_ratio_max>
+		<detail_th_min>1</detail_th_min>
+		<detail_th_bit_to_max>2</detail_th_bit_to_max>
+		
+		<smooth_eps>0.04</smooth_eps>
+		<smooth_eps_scale>15</smooth_eps_scale>
+		<smooth_r>0</smooth_r>
+
+		<enhance_flag>1</enhance_flag>
+		<enhance_th_bit>2</enhance_th_bit>
+		<enhance_scale>128</enhance_scale>
+		
+		<color_weight_shiftbit>3</color_weight_shiftbit>
+	</iso1>
+	<iso2>
+		<iso>200</iso>
+		<color_eps>0.06</color_eps>
+		<color_eps_scale>14</color_eps_scale>
+		<color_r>4</color_r>
+		<mono_eps>0.16</mono_eps>
+		<mono_eps_scale>10</mono_eps_scale>
+		<mono_r>4</mono_r>
+		
+		<mono_detail_eps>0.03</mono_detail_eps>
+		<mono_detail_eps_scale>14</mono_detail_eps_scale>
+		<mono_detail_r>1</mono_detail_r>
+		
+		<mono_detailbase_eps>0.06</mono_detailbase_eps>
+		<mono_detailbase_eps_scale>21</mono_detailbase_eps_scale>
+		<mono_detailbase_r>4</mono_detailbase_r>
+		
+		<detail_ratio_min>128</detail_ratio_min>
+		<detail_ratio_max>300</detail_ratio_max>
+		<detail_th_min>1</detail_th_min>
+		<detail_th_bit_to_max>2</detail_th_bit_to_max>
+		
+		<smooth_eps>0.06</smooth_eps>
+		<smooth_eps_scale>16</smooth_eps_scale>
+		<smooth_r>0</smooth_r>
+		
+		<enhance_flag>1</enhance_flag>
+		<enhance_th_bit>2</enhance_th_bit>
+		<enhance_scale>128</enhance_scale>
+		
+		<color_weight_shiftbit>3</color_weight_shiftbit>
+	</iso2>
+	<iso3>
+		<iso>300</iso>
+		<color_eps>0.08</color_eps>
+		<color_eps_scale>14</color_eps_scale>
+		<color_r>4</color_r>
+		<mono_eps>0.16</mono_eps>
+		<mono_eps_scale>10</mono_eps_scale>
+		<mono_r>4</mono_r>
+		
+		<mono_detail_eps>0.04</mono_detail_eps>
+		<mono_detail_eps_scale>14</mono_detail_eps_scale>
+		<mono_detail_r>1</mono_detail_r>
+		
+		<mono_detailbase_eps>0.08</mono_detailbase_eps>
+		<mono_detailbase_eps_scale>21</mono_detailbase_eps_scale>
+		<mono_detailbase_r>4</mono_detailbase_r>
+		
+		<detail_ratio_min>128</detail_ratio_min>
+		<detail_ratio_max>384</detail_ratio_max>
+		<detail_th_min>1</detail_th_min>
+		<detail_th_bit_to_max>2</detail_th_bit_to_max>
+		
+		<smooth_eps>0.06</smooth_eps>
+		<smooth_eps_scale>16</smooth_eps_scale>
+		<smooth_r>0</smooth_r>
+		
+		<enhance_flag>1</enhance_flag>
+		<enhance_th_bit>3</enhance_th_bit>
+		<enhance_scale>128</enhance_scale>
+		
+		<color_weight_shiftbit>3</color_weight_shiftbit>
+	</iso3>
+	<iso4>
+		<iso>400</iso>
+		<color_eps>0.1</color_eps>
+		<color_eps_scale>14</color_eps_scale>
+		<color_r>4</color_r>
+		<mono_eps>0.16</mono_eps>
+		<mono_eps_scale>10</mono_eps_scale>
+		<mono_r>4</mono_r>
+		
+		<mono_detail_eps>0.05</mono_detail_eps>
+		<mono_detail_eps_scale>14</mono_detail_eps_scale>
+		<mono_detail_r>1</mono_detail_r>
+		
+		<mono_detailbase_eps>0.1</mono_detailbase_eps>
+		<mono_detailbase_eps_scale>21</mono_detailbase_eps_scale>
+		<mono_detailbase_r>4</mono_detailbase_r>
+		
+		<detail_ratio_min>128</detail_ratio_min>
+		<detail_ratio_max>430</detail_ratio_max>
+		<detail_th_min>1</detail_th_min>
+		<detail_th_bit_to_max>2</detail_th_bit_to_max>
+		
+		<smooth_eps>0.1</smooth_eps>
+		<smooth_eps_scale>18</smooth_eps_scale>
+		<smooth_r>0</smooth_r>
+		
+		<enhance_flag>1</enhance_flag>
+		<enhance_th_bit>3</enhance_th_bit>
+		<enhance_scale>64</enhance_scale>
+		
+		<color_weight_shiftbit>2</color_weight_shiftbit>
+	</iso4>
+	<iso5>
+		<iso>600</iso>
+		<color_eps>0.12</color_eps>
+		<color_eps_scale>14</color_eps_scale>
+		<color_r>4</color_r>
+		<mono_eps>0.16</mono_eps>
+		<mono_eps_scale>10</mono_eps_scale>
+		<mono_r>4</mono_r>
+		
+		<mono_detail_eps>0.06</mono_detail_eps>
+		<mono_detail_eps_scale>14</mono_detail_eps_scale>
+		<mono_detail_r>1</mono_detail_r>
+		
+		<mono_detailbase_eps>0.12</mono_detailbase_eps>
+		<mono_detailbase_eps_scale>21</mono_detailbase_eps_scale>
+		<mono_detailbase_r>4</mono_detailbase_r>
+		
+		<detail_ratio_min>128</detail_ratio_min>
+		<detail_ratio_max>480</detail_ratio_max>
+		<detail_th_min>1</detail_th_min>
+		<detail_th_bit_to_max>2</detail_th_bit_to_max>
+		
+		<smooth_eps>0.1</smooth_eps>
+		<smooth_eps_scale>19</smooth_eps_scale>
+		<smooth_r>0</smooth_r>
+		
+		<enhance_flag>1</enhance_flag>
+		<enhance_th_bit>4</enhance_th_bit>
+		<enhance_scale>64</enhance_scale>
+		
+		<color_weight_shiftbit>2</color_weight_shiftbit>
+	</iso5>
+	<iso6>
+		<iso>800</iso>
+		<color_eps>0.12</color_eps>
+		<color_eps_scale>14</color_eps_scale>
+		<color_r>4</color_r>
+		<mono_eps>0.16</mono_eps>
+		<mono_eps_scale>10</mono_eps_scale>
+		<mono_r>4</mono_r>
+		
+		<mono_detail_eps>0.06</mono_detail_eps>
+		<mono_detail_eps_scale>14</mono_detail_eps_scale>
+		<mono_detail_r>1</mono_detail_r>
+		
+		<mono_detailbase_eps>0.12</mono_detailbase_eps>
+		<mono_detailbase_eps_scale>21</mono_detailbase_eps_scale>
+		<mono_detailbase_r>4</mono_detailbase_r>
+		
+		<detail_ratio_min>128</detail_ratio_min>
+		<detail_ratio_max>512</detail_ratio_max>
+		<detail_th_min>1</detail_th_min>
+		<detail_th_bit_to_max>2</detail_th_bit_to_max>
+		
+		<smooth_eps>0.1</smooth_eps>
+		<smooth_eps_scale>20</smooth_eps_scale>
+		<smooth_r>0</smooth_r>
+		
+		<enhance_flag>1</enhance_flag>
+		<enhance_th_bit>4</enhance_th_bit>
+		<enhance_scale>64</enhance_scale>
+		
+		<color_weight_shiftbit>2</color_weight_shiftbit>
+	</iso6>
+	<iso7>
+		<iso>1200</iso>
+		<color_eps>0.06</color_eps>
+		<color_eps_scale>14</color_eps_scale>
+		<color_r>4</color_r>
+		<mono_eps>0.16</mono_eps>
+		<mono_eps_scale>10</mono_eps_scale>
+		<mono_r>4</mono_r>
+		
+		<mono_detail_eps>0.03</mono_detail_eps>
+		<mono_detail_eps_scale>14</mono_detail_eps_scale>
+		<mono_detail_r>1</mono_detail_r>
+		
+		<mono_detailbase_eps>0.06</mono_detailbase_eps>
+		<mono_detailbase_eps_scale>21</mono_detailbase_eps_scale>
+		<mono_detailbase_r>4</mono_detailbase_r>
+		
+		<detail_ratio_min>128</detail_ratio_min>
+		<detail_ratio_max>400</detail_ratio_max>
+		<detail_th_min>2</detail_th_min>
+		<detail_th_bit_to_max>2</detail_th_bit_to_max>
+		
+		<smooth_eps>0.06</smooth_eps>
+		<smooth_eps_scale>21</smooth_eps_scale>
+		<smooth_r>0</smooth_r>
+		
+		<enhance_flag>1</enhance_flag>
+		<enhance_th_bit>4</enhance_th_bit>
+		<enhance_scale>64</enhance_scale>
+		
+		<color_weight_shiftbit>1</color_weight_shiftbit>
+	</iso7>
+	<iso8>
+		<iso>1600</iso>
+		<color_eps>0.06</color_eps>
+		<color_eps_scale>14</color_eps_scale>
+		<color_r>4</color_r>
+		<mono_eps>0.16</mono_eps>
+		<mono_eps_scale>10</mono_eps_scale>
+		<mono_r>4</mono_r>
+		
+		<mono_detail_eps>0.03</mono_detail_eps>
+		<mono_detail_eps_scale>14</mono_detail_eps_scale>
+		<mono_detail_r>1</mono_detail_r>
+		
+		<mono_detailbase_eps>0.06</mono_detailbase_eps>
+		<mono_detailbase_eps_scale>21</mono_detailbase_eps_scale>
+		<mono_detailbase_r>4</mono_detailbase_r>
+		
+		<detail_ratio_min>128</detail_ratio_min>
+		<detail_ratio_max>400</detail_ratio_max>
+		<detail_th_min>2</detail_th_min>
+		<detail_th_bit_to_max>2</detail_th_bit_to_max>
+		
+		<smooth_eps>0.06</smooth_eps>
+		<smooth_eps_scale>21</smooth_eps_scale>
+		<smooth_r>0</smooth_r>
+		
+		<enhance_flag>1</enhance_flag>
+		<enhance_th_bit>4</enhance_th_bit>
+		<enhance_scale>64</enhance_scale>
+		
+		<color_weight_shiftbit>1</color_weight_shiftbit>
+	</iso8>
+	<iso9>
+		<iso>3200</iso>
+		<color_eps>0.08</color_eps>
+		<color_eps_scale>14</color_eps_scale>
+		<color_r>4</color_r>
+		<mono_eps>0.16</mono_eps>
+		<mono_eps_scale>10</mono_eps_scale>
+		<mono_r>4</mono_r>
+		
+		<mono_detail_eps>0.04</mono_detail_eps>
+		<mono_detail_eps_scale>14</mono_detail_eps_scale>
+		<mono_detail_r>1</mono_detail_r>
+		
+		<mono_detailbase_eps>0.08</mono_detailbase_eps>
+		<mono_detailbase_eps_scale>21</mono_detailbase_eps_scale>
+		<mono_detailbase_r>4</mono_detailbase_r>
+		
+		<detail_ratio_min>128</detail_ratio_min>
+		<detail_ratio_max>400</detail_ratio_max>
+		<detail_th_min>2</detail_th_min>
+		<detail_th_bit_to_max>2</detail_th_bit_to_max>
+		
+		<smooth_eps>0.08</smooth_eps>
+		<smooth_eps_scale>21</smooth_eps_scale>
+		<smooth_r>0</smooth_r>
+		
+		<enhance_flag>1</enhance_flag>
+		<enhance_th_bit>4</enhance_th_bit>
+		<enhance_scale>64</enhance_scale>
+		
+		<color_weight_shiftbit>1</color_weight_shiftbit>
+	</iso9>
+	<iso10>
+		<iso>6400</iso>
+		<color_eps>0.08</color_eps>
+		<color_eps_scale>14</color_eps_scale>
+		<color_r>4</color_r>
+		<mono_eps>0.2</mono_eps>
+		<mono_r>4</mono_r>
+		
+		<mono_detail_eps>0.04</mono_detail_eps>
+		<mono_detail_eps_scale>14</mono_detail_eps_scale>
+		<mono_detail_r>1</mono_detail_r>
+		
+		<mono_detailbase_eps>0.08</mono_detailbase_eps>
+		<mono_detailbase_eps_scale>21</mono_detailbase_eps_scale>
+		<mono_detailbase_r>4</mono_detailbase_r>
+		
+		<detail_ratio_min>128</detail_ratio_min>
+		<detail_ratio_max>400</detail_ratio_max>
+		<detail_th_min>3</detail_th_min>
+		<detail_th_bit_to_max>2</detail_th_bit_to_max>
+		
+		<smooth_eps>0.08</smooth_eps>
+		<smooth_eps_scale>21</smooth_eps_scale>
+		<smooth_r>0</smooth_r>
+		
+		<enhance_flag>1</enhance_flag>
+		<enhance_th_bit>5</enhance_th_bit>
+		<enhance_scale>64</enhance_scale>
+		
+		<color_weight_shiftbit>1</color_weight_shiftbit>
+	</iso10>
+</Config>

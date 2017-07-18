@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Config>
+	<ISPControl>
+		<ISO1>
+			<isovalue>615</isovalue>
+			<isSharpnessOn>1</isSharpnessOn>
+			<isLumaDenoiseOn>1</isLumaDenoiseOn>
+			<isChromaDenoiseOn>1</isChromaDenoiseOn>
+		</ISO1>
+		<ISO2>
+			<isovalue>1536</isovalue>
+			<isSharpnessOn>1</isSharpnessOn>
+			<isLumaDenoiseOn>1</isLumaDenoiseOn>
+			<isChromaDenoiseOn>1</isChromaDenoiseOn>
+		</ISO2>
+		<ISO3>
+			<isovalue>2304</isovalue>
+			<isSharpnessOn>1</isSharpnessOn>
+			<isLumaDenoiseOn>1</isLumaDenoiseOn>
+			<isChromaDenoiseOn>1</isChromaDenoiseOn>
+		</ISO3>
+		<ISO4>
+			<isovalue>4096</isovalue>
+			<isSharpnessOn>1</isSharpnessOn>
+			<isLumaDenoiseOn>1</isLumaDenoiseOn>
+			<isChromaDenoiseOn>1</isChromaDenoiseOn>
+		</ISO4>
+		<ISO5>
+			<isovalue>8192</isovalue>
+			<isSharpnessOn>1</isSharpnessOn>
+			<isLumaDenoiseOn>1</isLumaDenoiseOn>
+			<isChromaDenoiseOn>1</isChromaDenoiseOn>
+		</ISO5>
+		<ISO6>
+			<isovalue>16384</isovalue>
+			<isSharpnessOn>1</isSharpnessOn>
+			<isLumaDenoiseOn>1</isLumaDenoiseOn>
+			<isChromaDenoiseOn>1</isChromaDenoiseOn>
+		</ISO6>
+		<ISO7>
+			<isovalue>24576</isovalue>
+			<isSharpnessOn>1</isSharpnessOn>
+			<isLumaDenoiseOn>1</isLumaDenoiseOn>
+			<isChromaDenoiseOn>1</isChromaDenoiseOn>
+		</ISO7>
+		<ISO8>
+			<isovalue>32768</isovalue>
+			<isSharpnessOn>1</isSharpnessOn>
+			<isLumaDenoiseOn>1</isLumaDenoiseOn>
+			<isChromaDenoiseOn>1</isChromaDenoiseOn>
+		</ISO8>
+	</ISPControl>
+	<AlgoParams>		
+		<ISO1>		
+			<isovalue>615</isovalue>
+			<MSKR>
+			<!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
+				<MultiscaleLevel>1</MultiscaleLevel>
+				<CkrWs>5</CkrWs>
+				<GradientWs>5</GradientWs>
+				<CkrSF>0.8</CkrSF>
+				<SkrAlpha>0.3</SkrAlpha>
+				<SkrFilterGroup>0</SkrFilterGroup>
+				<EnableNoiseControl>1</EnableNoiseControl>
+				
+				<IsSharpnessOn>0</IsSharpnessOn>
+				<Q0>1</Q0>
+				<Q1>8</Q1>
+				<Q2>25</Q2>
+				<Q3>300</Q3>
+				<SharpLevelMax>0.3</SharpLevelMax>             <!-- 0表示不增强-->
+				<SharpLevelMin>0.0</SharpLevelMin>		   
+				<LPFParams1>26</LPFParams1>
+				<LPFParams2>53</LPFParams2>
+			</MSKR>
+			<EdgeEnhancement>
+				<IsSharpnessOn>1</IsSharpnessOn>
+				<Q0>1</Q0>
+				<Q1>8</Q1>
+				<Q2>25</Q2>
+				<Q3>300</Q3>
+				<SharpLevelMax>0.5</SharpLevelMax>             <!-- 0表示不增强-->
+				<SharpLevelMin>0.0</SharpLevelMin>		   
+				<LPFParams1>26</LPFParams1>
+				<LPFParams2>53</LPFParams2>
+				<IsOscOn>0</IsOscOn>
+				<ThrL1>50</ThrL1>
+				<ThrL2>200</ThrL2>
+				<ThrD1>5</ThrD1>
+				<ThrD2>10</ThrD2>
+				<OvershootRatioMax>0.2</OvershootRatioMax>
+				<UndershootRatioMax>0.5</UndershootRatioMax>				
+			</EdgeEnhancement>
+			<TextureRecovery>
+				<EnableTextureRecovery>0</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
+				<NaivaSharpenLevel>1.0</NaivaSharpenLevel>
+				<Q0>1</Q0>  <!-- 倒几形 -->
+				<Q1>4</Q1>
+				<Q2>10</Q2>
+				<Q3>30</Q3>
+			</TextureRecovery>
+		</ISO1>
+		<ISO2>
+			<isovalue>1536</isovalue>
+			<MSKR>
+				<MultiscaleLevel>2</MultiscaleLevel>
+				<CkrWs>5 5</CkrWs>
+				<GradientWs>5 5</GradientWs>
+				<CkrSF>0.8 0.8</CkrSF>
+				<SkrAlpha>0.7 0.9</SkrAlpha>
+				<SkrFilterGroup>1 2</SkrFilterGroup>
+				<EnableNoiseControl>1 1</EnableNoiseControl>
+				
+				<IsSharpnessOn>0 0</IsSharpnessOn>
+				<Q0>1 1</Q0>
+				<Q1>8 8</Q1>
+				<Q2>250 250</Q2>
+				<Q3>300 300</Q3>
+				<SharpLevelMax>0.5 0.5</SharpLevelMax>            
+				<SharpLevelMin>0.3 0.3</SharpLevelMin>			
+				<LPFParams1>26 26</LPFParams1>
+				<LPFParams2>53 53</LPFParams2>
+			</MSKR>
+			<EdgeEnhancement>
+				<IsSharpnessOn>1</IsSharpnessOn>
+				<Q0>1</Q0>
+				<Q1>8</Q1>
+				<Q2>250</Q2>
+				<Q3>300</Q3>
+				<SharpLevelMax>0.5</SharpLevelMax>            
+				<SharpLevelMin>0.3</SharpLevelMin>		   
+				<LPFParams1>26</LPFParams1>
+				<LPFParams2>53</LPFParams2>
+				<IsOscOn>1</IsOscOn>
+				<ThrL1>50</ThrL1>
+				<ThrL2>200</ThrL2>
+				<ThrD1>5</ThrD1>
+				<ThrD2>10</ThrD2>
+				<OvershootRatioMax>0.2</OvershootRatioMax>
+				<UndershootRatioMax>0.2</UndershootRatioMax>
+			</EdgeEnhancement>
+			<TextureRecovery>
+				<EnableTextureRecovery>1</EnableTextureRecovery>
+				<NaivaSharpenLevel>1.0</NaivaSharpenLevel>
+				<Q0>1</Q0>
+				<Q1>4</Q1>
+				<Q2>10</Q2>
+				<Q3>30</Q3>
+			</TextureRecovery>		   
+		</ISO2>
+		<ISO3>
+			<isovalue>2304</isovalue>
+			<MSKR>
+				<MultiscaleLevel>3</MultiscaleLevel>
+				<CkrWs>5 5 5</CkrWs>
+				<GradientWs>5 5 5</GradientWs>
+				<CkrSF>0.8 0.8 0.8</CkrSF>
+				<SkrAlpha>0.7 0.9 0.9</SkrAlpha>
+				<SkrFilterGroup>3 2 2</SkrFilterGroup>
+				<EnableNoiseControl>1 1 1</EnableNoiseControl>
+				
+				<IsSharpnessOn>0 1 0</IsSharpnessOn>
+				<Q0>1 1 1</Q0>
+				<Q1>8 8 8</Q1>
+				<Q2>250 250 250</Q2>
+				<Q3>300 300 250</Q3>
+				<SharpLevelMax>0.5 0.5 0.3</SharpLevelMax>            
+				<SharpLevelMin>0.3 0.3 0.1</SharpLevelMin>
+				<LPFParams1>26 26 26</LPFParams1>
+				<LPFParams2>53 53 53</LPFParams2>
+			</MSKR>
+			<EdgeEnhancement>
+				<IsSharpnessOn>1</IsSharpnessOn>
+				<Q0>1</Q0>
+				<Q1>8</Q1>
+				<Q2>250</Q2>
+				<Q3>300</Q3>
+				<SharpLevelMax>0.5</SharpLevelMax>            
+				<SharpLevelMin>0.3</SharpLevelMin>		   
+				<LPFParams1>26</LPFParams1>
+				<LPFParams2>53</LPFParams2>
+				<IsOscOn>1</IsOscOn>
+				<ThrL1>50</ThrL1>
+				<ThrL2>200</ThrL2>
+				<ThrD1>5</ThrD1>
+				<ThrD2>10</ThrD2>
+				<OvershootRatioMax>0.2</OvershootRatioMax>
+				<UndershootRatioMax>0.5</UndershootRatioMax>
+			</EdgeEnhancement>
+			<TextureRecovery>
+				<EnableTextureRecovery>0</EnableTextureRecovery>
+				<NaivaSharpenLevel>1.0</NaivaSharpenLevel>
+				<Q0>1</Q0>
+				<Q1>4</Q1>
+				<Q2>10</Q2>
+				<Q3>30</Q3>
+			</TextureRecovery>		   
+		</ISO3>
+		<ISO4>
+			<isovalue>4096</isovalue>
+			<MSKR>
+				<MultiscaleLevel>3</MultiscaleLevel>
+				<CkrWs>5 5 5</CkrWs>
+				<GradientWs>5 5 5</GradientWs>
+				<CkrSF>0.8 0.8 0.8</CkrSF>
+				<SkrAlpha>1.0 0.7 0.7</SkrAlpha>
+				<SkrFilterGroup>3 2 2</SkrFilterGroup>
+				<EnableNoiseControl>1 1 1</EnableNoiseControl>
+				
+				<IsSharpnessOn>0 1 0</IsSharpnessOn>
+				<Q0>1 1 1</Q0>
+				<Q1>8 8 8</Q1>
+				<Q2>250 250 250</Q2>
+				<Q3>300 300 300</Q3>
+				<SharpLevelMax>0.5 0.5 0.3</SharpLevelMax>            
+				<SharpLevelMin>0.3 0.3 0.1</SharpLevelMin>
+				<LPFParams1>26 26 26</LPFParams1>
+				<LPFParams2>53 53 53</LPFParams2>
+			</MSKR>	
+			<EdgeEnhancement>
+				<IsSharpnessOn>1</IsSharpnessOn>
+				<Q0>1</Q0>
+				<Q1>8</Q1>
+				<Q2>250</Q2>
+				<Q3>300</Q3>
+				<SharpLevelMax>1.5</SharpLevelMax>             
+				<SharpLevelMin>0.3</SharpLevelMin>		   
+				<LPFParams1>26</LPFParams1>
+				<LPFParams2>53</LPFParams2>
+				<IsOscOn>1</IsOscOn>
+				<ThrL1>50</ThrL1>
+				<ThrL2>200</ThrL2>
+				<ThrD1>5</ThrD1>
+				<ThrD2>10</ThrD2>
+				<OvershootRatioMax>0.2</OvershootRatioMax>
+				<UndershootRatioMax>0.5</UndershootRatioMax>
+			</EdgeEnhancement>
+			<TextureRecovery>
+				<EnableTextureRecovery>0</EnableTextureRecovery>
+				<NaivaSharpenLevel>1.0</NaivaSharpenLevel>
+				<Q0>1</Q0>
+				<Q1>4</Q1>
+				<Q2>10</Q2>
+				<Q3>30</Q3>
+			</TextureRecovery>		
+		</ISO4>
+		<ISO5>
+			<isovalue>8192</isovalue>
+			<MSKR>
+				<MultiscaleLevel>3</MultiscaleLevel>
+				<CkrWs>5 5 5</CkrWs>
+				<GradientWs>5 5 5</GradientWs>
+				<CkrSF>0.8 0.8 0.8</CkrSF>
+				<SkrAlpha>1.0 0.7 0.7</SkrAlpha>
+				<SkrFilterGroup>3 2 2</SkrFilterGroup>
+				<EnableNoiseControl>1 1 1</EnableNoiseControl>
+				
+				<IsSharpnessOn>0 1 0</IsSharpnessOn>
+				<Q0>1 1 1</Q0>
+				<Q1>8 8 8</Q1>
+				<Q2>250 250 250</Q2>
+				<Q3>300 300 300</Q3>
+				<SharpLevelMax>0.5 0.5 0.3</SharpLevelMax>            
+				<SharpLevelMin>0.3 0.3 0.1</SharpLevelMin>
+				<LPFParams1>26 26 26</LPFParams1>
+				<LPFParams2>53 53 53</LPFParams2>
+			</MSKR>	
+			<EdgeEnhancement>
+				<IsSharpnessOn>1</IsSharpnessOn>
+				<Q0>1</Q0>
+				<Q1>8</Q1>
+				<Q2>250</Q2>
+				<Q3>300</Q3>
+				<SharpLevelMax>1.5</SharpLevelMax>             
+				<SharpLevelMin>0.3</SharpLevelMin>		   
+				<LPFParams1>26</LPFParams1>
+				<LPFParams2>53</LPFParams2>
+				<IsOscOn>1</IsOscOn>
+				<ThrL1>50</ThrL1>
+				<ThrL2>200</ThrL2>
+				<ThrD1>5</ThrD1>
+				<ThrD2>10</ThrD2>
+				<OvershootRatioMax>0.2</OvershootRatioMax>
+				<UndershootRatioMax>0.5</UndershootRatioMax>
+			</EdgeEnhancement>
+			<TextureRecovery>
+				<EnableTextureRecovery>0</EnableTextureRecovery>
+				<NaivaSharpenLevel>1.0</NaivaSharpenLevel>
+				<Q0>1</Q0>
+				<Q1>4</Q1>
+				<Q2>10</Q2>
+				<Q3>30</Q3>
+			</TextureRecovery>		
+		</ISO5>
+		<ISO6>
+			<isovalue>16384</isovalue>
+			<MSKR>
+				<MultiscaleLevel>3</MultiscaleLevel>
+				<CkrWs>5 5 5</CkrWs>
+				<GradientWs>5 5 5</GradientWs>
+				<CkrSF>0.8 0.8 0.8</CkrSF>
+				<SkrAlpha>1.0 0.7 0.7</SkrAlpha>
+				<SkrFilterGroup>3 2 2</SkrFilterGroup>
+				<EnableNoiseControl>1 1 1</EnableNoiseControl>
+				
+				<IsSharpnessOn>0 1 0</IsSharpnessOn>
+				<Q0>1 1 1</Q0>
+				<Q1>8 8 8</Q1>
+				<Q2>250 250 250</Q2>
+				<Q3>300 300 300</Q3>
+				<SharpLevelMax>0.5 0.5 0.3</SharpLevelMax>             
+				<SharpLevelMin>0.3 0.3 0.1</SharpLevelMin>
+				<LPFParams1>26 26 26</LPFParams1>
+				<LPFParams2>53 53 53</LPFParams2>
+			</MSKR>	
+			<EdgeEnhancement>
+				<IsSharpnessOn>1</IsSharpnessOn>
+				<Q0>1</Q0>
+				<Q1>8</Q1>
+				<Q2>250</Q2>
+				<Q3>300</Q3>
+				<SharpLevelMax>1.5</SharpLevelMax>             
+				<SharpLevelMin>0.3</SharpLevelMin>		   
+				<LPFParams1>26</LPFParams1>
+				<LPFParams2>53</LPFParams2>
+				<IsOscOn>1</IsOscOn>
+				<ThrL1>50</ThrL1>
+				<ThrL2>200</ThrL2>
+				<ThrD1>5</ThrD1>
+				<ThrD2>10</ThrD2>
+				<OvershootRatioMax>0.2</OvershootRatioMax>
+				<UndershootRatioMax>0.5</UndershootRatioMax>
+			</EdgeEnhancement>	
+			<TextureRecovery>
+				<EnableTextureRecovery>0</EnableTextureRecovery>
+				<NaivaSharpenLevel>1.0</NaivaSharpenLevel>
+				<Q0>1</Q0>
+				<Q1>4</Q1>
+				<Q2>10</Q2>
+				<Q3>30</Q3>
+			</TextureRecovery>		
+		</ISO6>
+		<ISO7>
+			<isovalue>24576</isovalue>
+			<MSKR>
+				<MultiscaleLevel>3</MultiscaleLevel>
+				<CkrWs>5 5 5</CkrWs>
+				<GradientWs>5 5 5</GradientWs>
+				<CkrSF>0.8 0.8 0.8</CkrSF>
+				<SkrAlpha>1.0 0.7 0.7</SkrAlpha>
+				<SkrFilterGroup>3 2 2</SkrFilterGroup>
+				<EnableNoiseControl>1 1 1</EnableNoiseControl>
+				
+				<IsSharpnessOn>0 1 0</IsSharpnessOn>
+				<Q0>1 1 1</Q0>
+				<Q1>8 8 8</Q1>
+				<Q2>250 250 250</Q2>
+				<Q3>300 300 300</Q3>
+				<SharpLevelMax>0.5 0.5 0.3</SharpLevelMax>             
+				<SharpLevelMin>0.3 0.3 0.1</SharpLevelMin>
+				<LPFParams1>26 26 26</LPFParams1>
+				<LPFParams2>53 53 53</LPFParams2>
+			</MSKR>	
+			<EdgeEnhancement>
+				<IsSharpnessOn>1</IsSharpnessOn>
+				<Q0>1</Q0>
+				<Q1>8</Q1>
+				<Q2>250</Q2>
+				<Q3>300</Q3>
+				<SharpLevelMax>1.5</SharpLevelMax>             
+				<SharpLevelMin>0.3</SharpLevelMin>		   
+				<LPFParams1>26</LPFParams1>
+				<LPFParams2>53</LPFParams2>
+				<IsOscOn>1</IsOscOn>
+				<ThrL1>50</ThrL1>
+				<ThrL2>200</ThrL2>
+				<ThrD1>5</ThrD1>
+				<ThrD2>10</ThrD2>
+				<OvershootRatioMax>0.2</OvershootRatioMax>
+				<UndershootRatioMax>0.5</UndershootRatioMax>
+			</EdgeEnhancement>
+			<TextureRecovery>
+				<EnableTextureRecovery>0</EnableTextureRecovery>
+				<NaivaSharpenLevel>1.0</NaivaSharpenLevel>
+				<Q0>1</Q0>
+				<Q1>4</Q1>
+				<Q2>10</Q2>
+				<Q3>30</Q3>
+			</TextureRecovery>		
+		</ISO7>
+		<ISO8>
+			<isovalue>32768</isovalue>
+			<MSKR>
+				<MultiscaleLevel>3</MultiscaleLevel>
+				<CkrWs>5 5 5</CkrWs>
+				<GradientWs>5 5 5</GradientWs>
+				<CkrSF>0.8 0.8 0.8</CkrSF>
+				<SkrAlpha>1.0 0.7 0.7</SkrAlpha>
+				<SkrFilterGroup>3 2 2</SkrFilterGroup>
+				<EnableNoiseControl>1 1 1</EnableNoiseControl>
+				
+				<IsSharpnessOn>0 1 0</IsSharpnessOn>
+				<Q0>1 1 1</Q0>
+				<Q1>8 8 8</Q1>
+				<Q2>250 250 250</Q2>
+				<Q3>300 300 300</Q3>
+				<SharpLevelMax>0.5 0.5 0.3</SharpLevelMax>             
+				<SharpLevelMin>0.3 0.3 0.1</SharpLevelMin>
+				<LPFParams1>26 26 26</LPFParams1>
+				<LPFParams2>53 53 53</LPFParams2>
+			</MSKR>	
+			<EdgeEnhancement>
+				<IsSharpnessOn>1</IsSharpnessOn>
+				<Q0>1</Q0>
+				<Q1>8</Q1>
+				<Q2>250</Q2>
+				<Q3>300</Q3>
+				<SharpLevelMax>1.5</SharpLevelMax>             
+				<SharpLevelMin>0.3</SharpLevelMin>		   
+				<LPFParams1>26</LPFParams1>
+				<LPFParams2>53</LPFParams2>
+				<IsOscOn>1</IsOscOn>
+				<ThrL1>50</ThrL1>
+				<ThrL2>200</ThrL2>
+				<ThrD1>5</ThrD1>
+				<ThrD2>10</ThrD2>
+				<OvershootRatioMax>0.2</OvershootRatioMax>
+				<UndershootRatioMax>0.5</UndershootRatioMax>
+			</EdgeEnhancement>
+			<TextureRecovery>
+				<EnableTextureRecovery>0</EnableTextureRecovery>
+				<NaivaSharpenLevel>1.0</NaivaSharpenLevel>
+				<Q0>1</Q0>
+				<Q1>4</Q1>
+				<Q2>10</Q2>
+				<Q3>30</Q3>
+			</TextureRecovery>		
+		</ISO8>
+	</AlgoParams>	
+</Config>

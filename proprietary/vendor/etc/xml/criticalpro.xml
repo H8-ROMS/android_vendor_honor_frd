@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<packages>
+<package name="com.hisi.mapcon" path="vendor/app/Mapcon" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="1"/>
+<package name="com.android.supl" path="vendor/app/gnss_supl20service_hisi" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="6"/>
+</packages>

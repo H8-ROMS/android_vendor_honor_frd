@@ -1,0 +1,4 @@
+libteec.so
+liblog.so
+libwxvoiceembed.so
+libbastetmanager.so

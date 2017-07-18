@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Config>
+    <PreProcess>
+    </PreProcess>
+    <RouteSwitch>
+        <DepthType>0</DepthType>
+        <ColorOnlyDisparity>10</ColorOnlyDisparity>
+        <ColorOnlyPixelPercent>30</ColorOnlyPixelPercent>
+        <MonoBasedChroma>10</MonoBasedChroma>
+        <MonoBasedPixelPercent>95</MonoBasedPixelPercent>
+    </RouteSwitch>
+    <Fusion>
+        <IsoLumaFusion>36000</IsoLumaFusion>
+        <WeightDiff>1</WeightDiff>
+    </Fusion>
+</Config>
