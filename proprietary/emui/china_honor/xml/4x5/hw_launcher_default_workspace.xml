@@ -22,9 +22,6 @@
             launcher:packageName="com.vmall.client"
             launcher:className="com.vmall.client.activity.VmallWapActivity" />
         <favorite
-            launcher:packageName="com.huawei.hnreader"
-            launcher:className="com.qq.reader.activity.SplashActivity" />
-        <favorite
             launcher:packageName="com.huawei.phoneservice"
             launcher:className="com.huawei.phoneservice.ui.HelpCenterActivity" />
         <favorite
@@ -97,12 +94,21 @@
         launcher:y="0"
         launcher:spanX="1"
         launcher:spanY="1" />
+    <favorite
+        launcher:packageName="com.huawei.hnreader"
+        launcher:className="com.qq.reader.activity.SplashActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="1"
+        launcher:spanX="1"
+        launcher:spanY="1" />
      <favorite
         launcher:packageName="com.huawei.gamebox"
         launcher:className="com.huawei.gamebox.GameBoxActivity"
         launcher:container="-100"
         launcher:screen="1"
-        launcher:x="0"
+        launcher:x="1"
         launcher:y="1"
         launcher:spanX="1"
         launcher:spanY="1" />
@@ -111,7 +117,7 @@
         launcher:className="com.huawei.healthcloud.cardui.MainActivity"
         launcher:container="-100"
         launcher:screen="1"
-        launcher:x="1"
+        launcher:x="2"
         launcher:y="1"
         launcher:spanX="1"
         launcher:spanY="1" />
@@ -120,7 +126,7 @@
         launcher:className="com.android.deskclock.AlarmsMainActivity"
         launcher:container="-100"
         launcher:screen="1"
-        launcher:x="2"
+        launcher:x="3"
         launcher:y="1"
         launcher:spanX="1"
         launcher:spanY="1" />
@@ -129,8 +135,8 @@
         launcher:className="com.android.calendar.AllInOneActivity"
         launcher:container="-100"
         launcher:screen="1"
-        launcher:x="3"
-        launcher:y="1"
+        launcher:x="0"
+        launcher:y="2"
         launcher:spanX="1"
         launcher:spanY="1" />
     <favorite
@@ -138,7 +144,7 @@
         launcher:className="com.android.settings.HWSettings"
         launcher:container="-100"
         launcher:screen="1"
-        launcher:x="0"
+        launcher:x="1"
         launcher:y="2"
         launcher:spanX="1"
         launcher:spanY="1" />
@@ -147,7 +153,7 @@
         launcher:className="com.example.android.notepad.NotePadActivity"
         launcher:container="-100"
         launcher:screen="1"
-        launcher:x="1"
+        launcher:x="2"
         launcher:y="2"
         launcher:spanX="1"
         launcher:spanY="1" />
@@ -156,7 +162,7 @@
         launcher:className="com.android.email.activity.Welcome"
         launcher:container="-100"
         launcher:screen="1"
-        launcher:x="2"
+        launcher:x="3"
         launcher:y="2"
         launcher:spanX="1"
         launcher:spanY="1" />
@@ -165,8 +171,8 @@
         launcher:className="com.huawei.trustspace.mainscreen.LoadActivity"
         launcher:container="-100"
         launcher:screen="1"
-        launcher:x="3"
-        launcher:y="2"
+        launcher:x="0"
+        launcher:y="3"
         launcher:spanX="1"
         launcher:spanY="1" />
 
@@ -174,7 +180,7 @@
         launcher:title="@string/folder_tools"
         launcher:container="-100"
         launcher:screen="1"
-        launcher:x="0"
+        launcher:x="1"
         launcher:y="3">
         <favorite
             launcher:packageName="com.huawei.android.totemweather"
@@ -191,6 +197,12 @@
         <favorite
             launcher:packageName="com.huawei.vdrive"
             launcher:className="com.huawei.vdrive.ui.VDriveActivity" />
+        <favorite
+            launcher:packageName="com.huawei.parentcontrol"
+            launcher:className="com.huawei.parentcontrol.ui.activity.HomeActivity" 
+            launcher:shortcut="true"
+            launcher:icontype="0"
+            launcher:translatetitle = "1"/>
         <favorite
             launcher:packageName="com.huawei.android.FMRadio"
             launcher:className="com.huawei.android.FMRadio.FMRadioMainActivity" />
@@ -228,7 +240,7 @@
         launcher:appid="0"
         launcher:container="-100"
         launcher:screen="1"
-        launcher:x="1"
+        launcher:x="2"
         launcher:y="3">
 
     </folder>

@@ -3,7 +3,7 @@
 <!-- iawareversion's value must be String like "1.0", configversion's value must be int like "2" -->
 <!-- upon the item iaware, no allowed add any item -->
 <!-- cloudupdate will use this attr enable 1 means open iaware 0 means close iaware -->
-<iaware enable="1" iawareversion="1.0" configversion="12">
+<iaware enable="1" iawareversion="1.0" configversion="15">
     <feature name="Memory">
         <config name="MemoryConstant" >
             <item ramsize="2048">
@@ -69,6 +69,70 @@
             </item>
             <item scene="BigMem">
                 <action name="quickkill"></action>
+            </item>
+        </config>
+        <config name="midnight">
+            <item action="kill">
+                <appmng_group>2</appmng_group>
+                <appmng_class>home,keybackground,persist,visible</appmng_class>
+                <appmng_subClass>previous,key_im,user_topN,health,visibleWin</appmng_subClass>
+            </item>
+        </config>
+        <config name="screenoff">
+            <item action="kill">
+                <appmng_group>2</appmng_group>
+                <appmng_class></appmng_class>
+                <appmng_subClass>key_im,user_topN,health</appmng_subClass>
+            </item>
+        </config>
+        <config name="memRepair">
+            <item name="base" size="5">
+                <fg_min_count>6</fg_min_count>
+                <bg_min_count>6</bg_min_count>
+                <fg_interval>2</fg_interval>
+                <bg_interval>15</bg_interval>
+                <dvalue_negative_percent>5</dvalue_negative_percent>
+            </item>
+            <item name="min_max_threshold" ramsize="2048" size="3">
+                <threshold>0;50;500</threshold>
+                <threshold>50;100;100</threshold>
+                <threshold>100;100000;50</threshold>
+            </item>
+            <item name="min_max_threshold" ramsize="3072" size="4">
+                <threshold>0;50;500</threshold>
+                <threshold>50;100;200</threshold>
+                <threshold>100;200;100</threshold>
+                <threshold>200;100000;50</threshold>
+            </item>
+            <item name="min_max_threshold" ramsize="4096" size="5">
+                <threshold>0;50;500</threshold>
+                <threshold>50;100;300</threshold>
+                <threshold>100;200;200</threshold>
+                <threshold>200;300;100</threshold>
+                <threshold>300;100000;50</threshold>
+            </item>
+            <item name="min_max_threshold" ramsize="6144" size="5">
+                <threshold>0;50;500</threshold>
+                <threshold>50;100;300</threshold>
+                <threshold>100;200;200</threshold>
+                <threshold>200;350;100</threshold>
+                <threshold>350;100000;50</threshold>
+            </item>
+            <item name="proc_emergency_threshold" ramsize="2048" size="2">
+                <foreground>1000</foreground>
+                <background>800</background>
+            </item>
+            <item name="proc_emergency_threshold" ramsize="3072" size="2">
+                <foreground>1500</foreground>
+                <background>1000</background>
+            </item>
+            <item name="proc_emergency_threshold" ramsize="4096" size="2">
+                <foreground>2000</foreground>
+                <background>1500</background>
+            </item>
+            <item name="proc_emergency_threshold" ramsize="6144" size="2">
+                <foreground>2000</foreground>
+                <background>1500</background>
             </item>
         </config>
         <config name="FileCache">
@@ -168,6 +232,37 @@
         </config>
     </feature>
 
+    <feature name="iAwareSDK">
+        <config name="1">
+            <item resId="3000">
+                <interval>1000</interval>
+                <minuteCount>60</minuteCount>
+                <hourCount>2000</hourCount>
+                <datasize>500</datasize>
+            </item>
+        </config>
+        <config name="10001">
+            <item resId="3003">
+                <interval>1000</interval>
+                <minuteCount>60</minuteCount>
+                <hourCount>2000</hourCount>
+                <datasize>500</datasize>
+            </item>
+            <item resId="3004">
+                <interval>1000</interval>
+                <minuteCount>60</minuteCount>
+                <hourCount>2000</hourCount>
+                <datasize>500</datasize>
+            </item>
+        </config>
+    </feature>
+    <feature name="AppMng">
+        <config name="AppFreeze">
+            <item>
+                <packageName>com.huawei.camera,com.android.gallery3d</packageName>
+            </item>
+        </config>
+    </feature>
     <feature name="ThirdApp">
         <config name="AppList">
             <item>

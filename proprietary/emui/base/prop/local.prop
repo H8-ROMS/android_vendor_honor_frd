@@ -1,5 +1,7 @@
 dalvik.vm.stack-trace-file=/data/anr/traces.txt
-ro.build.version.emui=EmotionUI_5.0
+#AR0009B7K9 wuxingru wwx368291 20170801 begin
+ro.build.version.emui=EmotionUI_5.0.1
+#AR0009B7K9 wuxingru wwx368291 20170801 end
 ro.config.ringtone=Huawei_Tune_Living.ogg
 ro.config.ringtone2=Huawei_Tune_Clean.ogg
 ro.config.alarm_alert=Aegean_Sea.ogg
@@ -30,7 +32,12 @@ ro.config.attach_ip_type=IPV4V6
 fw.show_multiuserui=1
 fw.max_users=4
 ro.config.fp_navigation=true
+#DTS2017062607102 sunshan WX368293 20170707 begin
 ro.com.google.clientidbase=android-huawei
+ro.com.google.clientidbase.am=android-huawei
+ro.com.google.clientidbase.ms=android-huawei
+ro.com.google.clientidbase.wal=android-huawei
+#DTS2017062607102 sunshan WX368293 20170707 end
 ro.config.updatelocation=true
 # DTS2016060606663 shiyuanchang/00271386 20160704 begin
 ro.config.hw_support_clone_app=true
@@ -47,11 +54,14 @@ ro.config.enable_perfhub_fling=false
 #BEGIN PN: DTS2016092708075, Added by w00364765,2016/10/08
 ro.control.sleeplog=true
 #END PN: DTS2016092708075, Added by w00364765,2016/10/08
+#BEGIN PN: AR0009D21Q, Added by wwx381980,2017/7/21
+ro.config.hw_eccNumUseRplmn=true
+#END PN: AR0009D21Q, Added by wwx381980,2017/7/21
 
-ro.config.hw_em_solution_ver=B078
+ro.config.hw_em_solution_ver=B110
 
-ro.comp.system_version=System 5.0.0.57(0GFC)
+ro.comp.system_version=System 5.0.0.57(129P)
 
-ro.confg.hw_systemversion=System 5.0.0.57(0GFC)
+ro.confg.hw_systemversion=System 5.0.0.57(129P)
 
-ro.build.diaplay.id=System 5.0.0.57(0GFC)
+ro.build.diaplay.id=System 5.0.0.57(129P)

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 当前版本号：Global_parameters V3.501
-SE13_version 20161114目前包含 217个国家和地区，1334套运营商参数。 -->
+<!-- 当前版本号：Global_parameters V3.577
+SE13_version 20170918
+目前包含 217个国家和地区，1334套运营商参数。 -->
 <voicemail version="6">
   <voicemail numeric="60203"
     carrier="etisalat"
@@ -509,6 +510,11 @@ SE13_version 20161114目前包含 217个国家和地区，1334套运营商参数
   />
   <voicemail numeric="46689"
     carrier="台灣之星"
+    vmnumber="777"
+    vmtag="voicemail"
+  />
+  <voicemail numeric="46605"
+    carrier="GT 4G"
     vmnumber="777"
     vmtag="voicemail"
   />
@@ -1299,7 +1305,7 @@ SE13_version 20161114目前包含 217个国家和地区，1334套运营商参数
   />
   <voicemail numeric="334090"
     carrier="Nextel"
-    vmnumber="+525535396245"
+    vmnumber="*86"
     vmtag="voicemail"
   />
   <voicemail numeric="704020"

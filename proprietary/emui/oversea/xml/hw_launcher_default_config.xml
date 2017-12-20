@@ -18,6 +18,10 @@
 -->
 
 <launcher_config>
+    <integer name="config_DesktopDefaultScreen">1</integer>
+    <integer name="config_DesktopDrawerScreen">1</integer>
+    <integer name="config_DesktopScreenNum">3</integer>
+    <integer name="config_DesktopDrawerScreenNum">3</integer>
     <string-array name="config_SuggestionApp">
         <item name="suggestionapp">com.huawei.systemmanager/com.huawei.systemmanager.mainscreen.MainScreenActivity</item>
         <item name="suggestionapp">com.android.gallery3d/com.huawei.gallery.app.GalleryMain</item>

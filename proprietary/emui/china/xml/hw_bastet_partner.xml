@@ -3,10 +3,15 @@
     <!--V1R7C00-AR-ComponentAccelerate-Fast Grab-001 wangchenyang/00371129 20161103     begin -->
     <iaware>
         <wechat switch="1">
-            <config version="800-100000">
+            <config version="800-1019">
                 <messageTag>\u005b\u0043\u0044\u0041\u0054\u0041\u005b\u5fae\u4fe1\u7ea2\u5305\u005d\u005d</messageTag>
                 <animationRootView>LuckyMoneyReceiveUI</animationRootView>
                 <boostRootView>LuckyMoneyReceiveUI</boostRootView>
+            </config>
+            <config version="1020-100000">
+                <messageTag>\u005b\u0043\u0044\u0041\u0054\u0041\u005b\u5fae\u4fe1\u7ea2\u5305\u005d\u005d</messageTag>
+                <animationRootView>En_fba4b94f</animationRootView>
+                <boostRootView>En_fba4b94f</boostRootView>
             </config>
         </wechat>
         <alipay switch="1">
@@ -57,7 +62,8 @@
     <!-- emcom accelerate charactor -->
     <emcom_accelerate>
         <app name="com.tencent.mm">
-            <autograb version="^[5-6].(.*)$">LauncherUi:LauncherUI;ReceiveUi:LuckyMoneyReceiveUI;DetailUi:LuckyMoneyDetailUI;packetKeyword:\u5fae\u4fe1\u7ea2\u5305;packetMsg:android.widget.LinearLayout;openButton:android.widget.Button;packetType:436207665;packetIdentifier:\u5b\u5fae\u4fe1\u7ea2\u5305\u5d;grabFailTip:\u624b\u6162\u4e86\uff0c\u7ea2\u5305\u6d3e\u5b8c\u4e86;groupMsgIdentifier:@chatroom;baseDelay:100;chatIdKey:Main_User;msgTypeKey:MainUI_User_Last_Msg_Type</autograb>
+            <autograb version="6.(5.([5-9]|[1-9][0-9]+)|[6-9].[0-9]+)|[7-9].(.*)$">LauncherUi:LauncherUI;ReceiveUi:En_fba4b94f;DetailUi:LuckyMoneyDetailUI;packetKeyword:\u5fae\u4fe1\u7ea2\u5305;packetMsg:android.widget.LinearLayout;openButton:android.widget.Button;packetType:436207665;packetIdentifier:\u5b\u5fae\u4fe1\u7ea2\u5305\u5d;grabFailTip:\u624b\u6162\u4e86\uff0c\u7ea2\u5305\u6d3e\u5b8c\u4e86;groupMsgIdentifier:@chatroom;baseDelay:100;chatIdKey:Main_User;msgTypeKey:MainUI_User_Last_Msg_Type</autograb>
+            <autograb version="6.([1-4].[0-9]+|5.[0-4])">LauncherUi:LauncherUI;ReceiveUi:LuckyMoneyReceiveUI;DetailUi:LuckyMoneyDetailUI;packetKeyword:\u5fae\u4fe1\u7ea2\u5305;packetMsg:android.widget.LinearLayout;openButton:android.widget.Button;packetType:436207665;packetIdentifier:\u5b\u5fae\u4fe1\u7ea2\u5305\u5d;grabFailTip:\u624b\u6162\u4e86\uff0c\u7ea2\u5305\u6d3e\u5b8c\u4e86;groupMsgIdentifier:@chatroom;baseDelay:100;chatIdKey:Main_User;msgTypeKey:MainUI_User_Last_Msg_Type</autograb>
         </app>
         <app name="com.tencent.mobileqq">
             <event version="^[5-6].(.*)$">

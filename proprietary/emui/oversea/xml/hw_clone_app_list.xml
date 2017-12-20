@@ -3,4 +3,5 @@
 <AppClone>
     <package name="com.whatsapp"/>
     <package name="com.facebook.katana"/>
+    <package name="com.facebook.orca"/>
 </AppClone>
