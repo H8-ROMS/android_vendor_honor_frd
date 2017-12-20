@@ -469,7 +469,7 @@
       <asstcontrol_msb>
         <ref_loc>1</ref_loc>
         <ref_time>1</ref_time>
-        <dgps>1</dgps>
+        <dgps>0</dgps>
         <navmodel>1</navmodel>
         <ionomodel>1</ionomodel>
         <utcmodel>1</utcmodel>

@@ -91,18 +91,20 @@ echo "$USERDEVID 1" > $BLKROOT/blkio.throttle.enable_max_inflights_device
 set_max_inflights "kbg" $KBGDIR $KBG_MAXINFLIGHT
 set_max_inflights "bg" $BGDIR $BG_MAXINFLIGHT
 
-set_fg_flag()
+set_cgroup_type()
 {
 	local CGRPNAME=$1
 	local CGRP=$2
 	local VALUE=$3
 
-	echo "$USERDEVID $VALUE" > $CGRP/blkio.throttle.fg_flag
+	echo "$VALUE" > $CGRP/blkio.throttle.type
 	if [ $? -ne 0 ]; then
-		echo "set $CGRPNAME fg flag failed"
+		echo "set $CGRPNAME type failed"
 	fi
 }
 
-set_fg_flag "top-app" $TOPAPP 1
-set_fg_flag "foreground" $FGDIR 1
-set_fg_flag "foreground/boost" $FGBOOSTDIR 1
+set_cgroup_type "top-app" $TOPAPP 0
+set_cgroup_type "fg" $FGDIR 1
+set_cgroup_type "kbg" $KBGDIR 2
+set_cgroup_type "sbg" $SBGDIR 3
+set_cgroup_type "bg" $BGDIR 4

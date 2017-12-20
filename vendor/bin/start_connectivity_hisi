@@ -6,10 +6,13 @@ function chmod_retry()
     hisi_file_user=$2
     hisi_file_group=$3
     chmod_try=5
+    base_name=${hisi_file##*/}
 
-    if [ -e ${hisi_file} ]
-    then
-        while [ $chmod_try -gt 0 ];do
+    #print_kernel_message "plat base_name is ${base_name}"
+
+    while [ $chmod_try -gt 0 ];do
+        if [ -e ${hisi_file} ]
+        then
             chmod 660 ${hisi_file}
             if [ $? -eq 0 ]
             then
@@ -24,17 +27,28 @@ function chmod_retry()
             if [ $? -eq 0 ]
             then
                 print_kernel_message "plat chown ${hisi_file} succ"
+                print_kernel_message "plat `ls -l ${hisi_file}`"
                 break
             else
                 print_kernel_message "plat chown ${hisi_file} failed"
             fi
             let chmod_try--
-        done
-        print_kernel_message "plat `ls -l ${hisi_file}`"
-    else
-        print_kernel_message "plat ${hisi_file} not exist"
-    fi
+        else
+            cat /proc/misc | grep ${base_name}
+            if [ $? -eq 0 ]
+            then
+                print_kernel_message "plat ${base_name} exist in /proc/misc, sleep wait 1s [$chmod_try]"
+                sleep 1
+                let chmod_try--
+                continue
+            else
+                print_kernel_message "plat ${base_name} not exist in /proc/misc, ignore"
+                break
+            fi
+        fi
+    done
 }
+
 function mk_dirs()
 {
     umask 002
